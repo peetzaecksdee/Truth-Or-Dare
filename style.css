@@ -17,9 +17,48 @@ main {
   color: #EFEFEF;
 }
 
+.truth-or-dare {
+  display: flex;
+  gap: 1vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.truth-or-dare > button {
+  width: 12vh;
+  height: 4vh;
+  border: none;
+  border-radius: 8px;
+  color: #EFEFEF;
+  font-size: 2vh;
+}
+
+#truth-btn {
+  background-color: rgb(0, 180, 0);
+}
+
+#truth-btn:hover {
+  background-color: rgb(0, 160, 0);
+}
+
+#truth-btn:active {
+  background-color: green;
+}
+
+#dare-btn {
+  background-color: red;
+}
+
+#dare-btn:hover {
+  background-color: rgb(180, 0, 0);
+}
+
+#dare-btn:active {
+  background-color: rgb(160, 0, 0);
+}
+
 #rand-btn {
-  height: 50px;
-  width: 150px;
+  color: black;
 }
 
 h1 {
@@ -35,9 +74,8 @@ footer {
   left: 0;
   right: 0;
   padding: 12px;
-  background: var(--hero-background);
   text-align: center;
-  color: var(--hero-main-text);
+  color: #EFEFEF;
   font-size: 18px;
   display: flex;
   align-items: center;
