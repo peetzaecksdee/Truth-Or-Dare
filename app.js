@@ -25,8 +25,8 @@ function loadJSON(path, success, error) {
 btn.addEventListener("click", () => {
 	loadJSON("random.json", (data) => {
 		const TOD = randomNumberGenerator(2) === 1 ? "Dare" : "Truth";
-		tdText.textContent = TOD;
 		const truthOrDareArray = data[TOD];
-		text.textContent = truthOrDareArray[randomNumberGenerator(500)];
+		tdText.textContent = TOD;
+		text.textContent = truthOrDareArray[randomNumberGenerator(328)];
 	});
 });

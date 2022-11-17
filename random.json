@@ -166,9 +166,6 @@
     "How many times have you smoked?",
     "Do you consume alcohol?",
     "Have you ever been influenced by somebody?",
-    "Did you try drugs?",
-    "Would you go to a nude beach?",
-    "Are you still a virgin?",
     "Do you have any tattoos hidden?",
     "What is the longest time you've been in a relationship?",
     "Who is one person that annoys you the most?",
@@ -655,6 +652,15 @@
     "Eat 5 green chillies",
     "Lick your own sweat",
     "Narrate a poem for 1 minute long.",
-    "Lay on the floor and behave like a snake."
+    "Lay on the floor and behave like a snake.",
+    "Text someone with 'Hi' and do not respond to any messages.",
+    "Send/say the alphabet backwards.",
+    "Spin around 10 times and try to walk straight.",
+    "Eat an ice cube.",
+    "Voice act a cartoon character of the group's choice.",
+    "Talk in an accent for the next 3 rounds.",
+    "Show everyone the last YouTube video you watched.",
+    "Show your last 10 internet history.",
+    "Show everyone what you've searched."
   ]
 }
