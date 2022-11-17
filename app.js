@@ -27,6 +27,6 @@ btn.addEventListener("click", () => {
 		const TOD = randomNumberGenerator(2) === 1 ? "Dare" : "Truth";
 		const truthOrDareArray = data[TOD];
 		tdText.textContent = TOD;
-		text.textContent = truthOrDareArray[randomNumberGenerator(328)];
+		text.textContent = truthOrDareArray[randomNumberGenerator(truthOrDareArray.length)];
 	});
 });
