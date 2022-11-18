@@ -4,7 +4,7 @@ const truthBtn = document.getElementById("truth-btn");
 const tdText = document.getElementById("tod-text");
 const text = document.getElementById("text-display");
 const randomToD = new FileReader();
-let truthOrDareArray;
+let truthOrDareArray, truthOrDareData;
 
 function randomNumberGenerator(number) {
   return Math.floor(Math.random() * number);
